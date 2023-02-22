@@ -3,11 +3,8 @@ layout: post
 title: Copy editing automation @ Digiscape
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
 ![_config.yml]({{ site.baseurl }}/images/Elsevier.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
 
 <p>So, there is a journal and research paper publication company Elsevier. They receive a copy of journals from authors and these journals have to go through various stages of copy editing tasks before getting published. Now, all these tasks were done manually previously and we were to automate some of the steps which could reduce the processing time, error and manually.&nbsp;</p>
 <p>The problem was divided into different stages</p>
@@ -165,20 +162,3 @@ The easiest way to make your first post is to edit this one. Go into /_posts/ an
         <div>The text data is a combination of N-gram features, Term Frequency-Inverse Document Frequency (TF-IDF) weighting, In the TF-IDF weighting process, a threshold of 2,0 in the Document-Frequency (DF) is given. The classification process is carried out using Support Vector Machine (SVM) algorithm with a linear kernel and the best accuracy obtained is 90 %.</div>
     </li>
 </ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<div>2.&nbsp;Some rule-based objectives were</div>
-<div>a.&nbsp;chemical names in chemistry journals or genus names have to be title case and sentence case (initial capital)</div>
-<div>b.&nbsp;the sequences of amino acids (three-letter abbreviations, e.g. &lsquo;Ala&rsquo;, &lsquo;Arg&rsquo;, &lsquo;Gly&rsquo;, &lsquo;Phy&rsquo;, &lsquo;Tyr&rsquo;, &lsquo;Xaa&rsquo;, etc) should be separated by hyphens.\For single bonds, e.g. &ndash;CH3, &ndash;SH, C&ndash;C, use the single bond glyph (&lt;ce:glyph name=&quot;sbnd&quot;/&gt;).</div>
-<div>c.&nbsp;How many author&apos;s names are allowed according to the article type</div>
-<div>d.&nbsp;Arrangement of author&apos;s date name and work</div>
-<div>e.&nbsp;Ensure authors&apos; e-mail addresses but not their private email address</div>
-<div>f.&nbsp;Country names version USA and united states of America.</div>
-<div>g.&nbsp;follow the conventions of that language, e.g. German nouns have an initial capital; French adjectives are all lower cases.</div>
-<div>h.&nbsp;Do not include authors&rsquo; telephone details: these should permanently be removed when supplied.</div>
-<div>i.&nbsp;Formatting of dates (same convention)</div>
-<p>Whichever rule is failed we need to give warnings/errors to the manual copy editing team.</p>
