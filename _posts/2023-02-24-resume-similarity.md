@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Copy editing automation - Digiscape
+title:  resume CE - Jio Institute
 full-width: true
 ---
 
