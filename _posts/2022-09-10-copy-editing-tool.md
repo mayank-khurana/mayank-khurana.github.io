@@ -8,7 +8,7 @@ full-width: true
 
 
 <p>So, there is a journal and research paper publication company Elsevier. They receive a copy of journals from authors and these journals have to go through various stages of copy editing tasks before getting published. Now, all these tasks were done manually previously and we were to automate some of the steps which could reduce the processing time, error and manually.&nbsp;</p>
-![_config.yml]({{ site.baseurl }}/images/Elsevier.png)
+
 <p>The problem was divided into different stages</p>
 <ol>
     <li>
