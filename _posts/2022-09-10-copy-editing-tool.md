@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Copy editing automation : Digiscape
+title: Copy editing automation - Digiscape
 full-width: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/Elsevier.png)
