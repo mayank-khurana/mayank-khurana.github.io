@@ -10,7 +10,7 @@ As advancements in deep learning are outperforming humans, we have also applied 
 
 ## Dataset Description
 To tackle this problem, we will be using the __UpdatedResumeDataSet.csv__ dataset, which is available on Kaggle. This dataset consists of data points from the IT domain and has two columns: categories (job description) and Resume. We chose only the IT domain to create a baseline model that could prove our technique to be beneficial or not.
-![_config.yml]({{ site.baseurl }}/images/unique_dataset.png)
+![_config.yml]({{ site.baseurl }}/images/unique_dataset.png =350x450)
 
 ## Real-World Challenges and Constraints
 In the practical world, there are no rigid time constraints for calculating the degree of match between job descriptions and resumes. This calculation can be performed daily, hourly, or after the submission deadline. Similarly, scalability is not a significant concern, as strict latency requirements do not exist.
