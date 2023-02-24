@@ -81,7 +81,7 @@ Try the demo below.
 <iframe
 	src="https://mayank-02-matching-job-descriptions-and-re-bc76b1f.hf.space"
 	frameborder="0"
-	width="850"
+	width="950"
 	height="450"
 ></iframe>
 
