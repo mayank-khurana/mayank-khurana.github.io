@@ -4,7 +4,7 @@ title:  Matching Job Descriptions and Resumes Using Deep Learning Algorithms - J
 full-width: true
 ---
 ![_config.yml]({{ site.baseurl }}/images/gpl_overview.png)
-***The task of matching job descriptions and resumes using machine learning algorithms to output a Skill Match Index in percentage is a complex problem. It involves several challenging tasks, including data cleaning and preparation, feature extraction, algorithm selection and training, and metric evaluation. To accomplish this task, expertise in NLP, machine learning, and data science, as well as a deep understanding of the job market and hiring practices, is required. However, with the help of new technologies in NLP, we aim to improve the performance of the ATS system.***
+The task of matching job descriptions and resumes using machine learning algorithms to output a Skill Match Index in percentage is a complex problem. It involves several challenging tasks, including data cleaning and preparation, feature extraction, algorithm selection and training, and metric evaluation. To accomplish this task, expertise in NLP, machine learning, and data science, as well as a deep understanding of the job market and hiring practices, is required. However, with the help of new technologies in NLP, we aim to improve the performance of the ATS system.
 
 As advancements in deep learning are outperforming humans, we have also applied state-of-the-art deep learning algorithms to achieve our goal.
 
@@ -56,6 +56,7 @@ Solution: To address this issue, we applied the technique called Domain Adaptati
     3: what is a database administrator
 ```
 3. __Negative Mining:__ In this step, we aim to find passages that are similar to the generated query but are not relevant to the user's search intent. To achieve this, we use dense retrieval with an existing text embedding model to retrieve relevant paragraphs for the query. These relevant paragraphs serve as positive samples, while we need to mine negative samples that are similar to the query but are not relevant. For instance, for the query "What is Python?", a negative sample could be "Python is a species of snake found in Australia.".
+
 ```
     output:
     Negative sampling
@@ -63,6 +64,7 @@ Solution: To address this issue, we applied the technique called Domain Adaptati
     2. what is database
     3. what did database administrator do
 ```
+
 4. __Pseudo Labelling:__ In this step, we use a Cross-Encoder to score all (query, passage)-pairs to identify relevant passages for the query. This is important because some of the passages retrieved in the negative mining step may actually be relevant for the user's search intent. The Cross-Encoder assigns a score to each (query, passage) pair, indicating how relevant the passage is to the query.
 
 5. __Training:__ Once we have generated the triplets (generated query, positive passage, mined negative passage) and the corresponding Cross-Encoder scores for (query, positive) and (query, negative), we can start training the text embedding model using MarginMSELoss. This loss function ensures that the distance between the positive and negative passages is greater than a specified margin.
