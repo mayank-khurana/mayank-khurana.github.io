@@ -74,3 +74,14 @@ Solution: To address this issue, we applied the technique called Domain Adaptati
 Overall, these steps aim to fine-tune a pre-trained model to learn domain-specific concepts and improve the performance of the model in a specific task. Further analysis can be done at each iteration to improve the accuracy of the model.
 
 By following these steps, we were able to train a model that can match job descriptions and resumes accurately and effectively.
+
+Try the demo below.
+
+
+<iframe
+	src="https://mayank-02-matching-job-descriptions-and-re-bc76b1f.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
+
