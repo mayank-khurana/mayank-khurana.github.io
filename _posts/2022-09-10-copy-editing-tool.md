@@ -161,10 +161,3 @@ full-width: true
         <div>The text data is a combination of N-gram features, Term Frequency-Inverse Document Frequency (TF-IDF) weighting, In the TF-IDF weighting process, a threshold of 2,0 in the Document-Frequency (DF) is given. The classification process is carried out using Support Vector Machine (SVM) algorithm with a linear kernel and the best accuracy obtained is 90 %.</div>
     </li>
 </ul>
-
-<iframe
-	src="https://multimodalart-mariogpt.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
