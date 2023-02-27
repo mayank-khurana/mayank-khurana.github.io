@@ -6,7 +6,7 @@ full-width: true
 ![_config.yml]({{ site.baseurl }}/images/gpl_overview.png)
 The task of matching job descriptions and resumes using machine learning algorithms to output a Skill Match Index in percentage is a complex problem. It involves several challenging tasks, including data cleaning and preparation, feature extraction, algorithm selection and training, and metric evaluation. To accomplish this task, expertise in NLP, machine learning, and data science, as well as a deep understanding of the job market and hiring practices, is required. However, with the help of new technologies in NLP, we aim to improve the performance of the ATS system.
 
-__Reproduce the below technique yourself with this [notebook](gpl_reprod.ipynb](https://github.com/mayank-khurana/assignments/blob/master/gpl_reprod.ipynb))__.
+__Reproduce the below technique yourself with this [notebook](https://github.com/mayank-khurana/assignments/blob/master/gpl_reprod.ipynb)__.
 
 As advancements in deep learning are outperforming humans, we have also applied state-of-the-art deep learning algorithms to achieve our goal.
 
