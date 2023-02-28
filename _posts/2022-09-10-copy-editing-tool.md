@@ -6,19 +6,19 @@ full-width: true
 ![_config.yml]({{ site.baseurl }}/images/Elsevier.png)
 <p>So, there is a journal and research paper publication company Elsevier. They receive a copy of journals from authors and these journals have to go through various stages of copy editing tasks before getting published. Now, all these tasks were done manually previously and we were to automate some of the steps which could reduce the processing time, error and manually.&nbsp;</p>
 
-<p>The problem was divided into different stages</p>
+<p>The problem was divided into different stages:-</p>
 <ol>
     <li>
         <div>The research paper/journal is to be approved or not:-</div>
         <ul>
             <li>
-                <div>This is based on hard-coded rules about (100) and Intensive regex and python programming are used to solve. (with the help of an SME)</div>
+                <div>This is based on hard-coded rules about (100) and Intensive regex and python programming is used to solve it. (with the help of an SME)</div>
             </li>
             <li>
-                <div>Classifying type of journal (i.e maths, chemistry, medical) using some ML model.</div>
+                <div>Classifying type of journal (i.e maths, chemistry, medical) using different ML models.</div>
             </li>
             <li>
-                <div>Classifying type of language (British English, American English)</div>
+                <div>Classifying type of language (British English, American English).</div>
             </li>
         </ul>
     </li>
@@ -33,10 +33,10 @@ full-width: true
         <div>Real world/Business Objectives and Constraints :&nbsp;</div>
         <ul>
             <li>
-                <div>The cost of misclassification can be very high</div>
+                <div>The cost of misclassification can be very high.</div>
             </li>
             <li>
-                <div>Want the probability of the classification task so, that we can set our own threshold</div>
+                <div>Want the probability of the classification task so, that we can set our own threshold.</div>
             </li>
             <li>
                 <div>No strict latency concerns.</div>
@@ -56,15 +56,15 @@ full-width: true
                 <div>Performance Metric</div>
                 <ul>
                     <li>
-                        <div>Multi Log-loss(minimize to 0 or max is infinity)</div>
+                        <div>Multi Log-loss(minimize to 0 or max is infinity).</div>
                     </li>
                     <li>
-                        <div>Confusion matrix and f1 score, true positive rate</div>
+                        <div>Confusion matrix and f1 score, true positive rate.</div>
                     </li>
                 </ul>
             </li>
             <li>
-                <div>Distribution of data points among output classes: was not balanced therefore apply data imputation &amp; weights while classifying</div>
+                <div>Distribution of data points among output classes was not balanced therefore apply data imputation &amp; weights while classifying</div>
             </li>
             <li>
                 <div>Feature cleaning(using various NLP tasks) &amp; made more features using different techniques</div>
