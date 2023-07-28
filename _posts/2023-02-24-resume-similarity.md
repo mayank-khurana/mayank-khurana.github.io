@@ -78,10 +78,10 @@ By following these steps, we were able to train a model that can match job descr
 Try the demo below.
 
 
-<iframe
-	src="https://mayank-02-matching-job-descriptions-and-resumes.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.19.1/gradio.js"
+></script>
+
+<gradio-app src="https://mayank-02-matching-job-descriptions-and-resumes.hf.space"></gradio-app>
 
